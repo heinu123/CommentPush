@@ -1,6 +1,6 @@
 # CommentPush
 
-> Typecho 插件——新评论微信通知 
+> Typecho 插件——评论推送通知
 
 
 ## 支持的推送模式
