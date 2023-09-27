@@ -103,7 +103,7 @@ class CommentPush_Plugin implements Typecho_Plugin_Interface
         }
     } elseif (Helper::options()->plugin('CommentPush')->model == 1) {
         if (Helper::options()->plugin('CommentPush')->show == 1) {
-            $desp = "**".$comment['author']."** 在 [".$post->title."](".$post->permalink.") 中发送了评论 内容:``\n ".$comment['text']."``";
+            $desp = "**".$comment['author']."** 在 [".$post->title."](".$post->permalink.") 中发送了评论 内容:`\n ".$comment['text']."`";
         } else {
             $strlen = mb_strlen($comment['author'], 'utf-8');
             
